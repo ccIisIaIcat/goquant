@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+__pycache__
+.vscode
+doc/*
+!doc/代码对照表.txt
+!doc/README.md
+data/*
+!data/README.md
+.DS_Store
+.vs
+x64
+DerivedData
+log_record
+log

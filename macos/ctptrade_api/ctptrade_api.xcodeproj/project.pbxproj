@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E42D7312947841D00C24C5B /* ctptrade_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D72F2947841D00C24C5B /* ctptrade_api.h */; };
+		4E42D7322947841D00C24C5B /* ctptrade_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E42D7302947841D00C24C5B /* ctptrade_api.cpp */; };
+		4E42D73E2947843500C24C5B /* DataCollect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D7342947843400C24C5B /* DataCollect.h */; };
+		4E42D73F2947843500C24C5B /* ThostFtdcUserApiDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D7362947843500C24C5B /* ThostFtdcUserApiDataType.h */; };
+		4E42D7422947843500C24C5B /* ThostFtdcMdApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D73A2947843500C24C5B /* ThostFtdcMdApi.h */; };
+		4E42D7432947843500C24C5B /* ThostFtdcTraderApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D73B2947843500C24C5B /* ThostFtdcTraderApi.h */; };
+		4E42D7442947843500C24C5B /* ThostFtdcUserApiStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42D73C2947843500C24C5B /* ThostFtdcUserApiStruct.h */; };
+		4E470551295313F500E55215 /* libthostmduserapi_se.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47054E295313F500E55215 /* libthostmduserapi_se.a */; };
+		4E470553295313F500E55215 /* libthosttraderapi_se.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E470550295313F500E55215 /* libthosttraderapi_se.a */; };
+		4E4705552953144900E55215 /* libMacDataCollect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4705542953144900E55215 /* libMacDataCollect.a */; };
+		4EFDD217294E77B5005E1C5C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFDD216294E77B5005E1C5C /* IOKit.framework */; };
+		4EFDD219294E77EA005E1C5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFDD218294E77EA005E1C5C /* Cocoa.framework */; };
+		4EFDD21B294E77F7005E1C5C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFDD21A294E77F7005E1C5C /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E42D72F2947841D00C24C5B /* ctptrade_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ctptrade_api.h; path = ../../csource/src/wrapper_ctp/macos/ctptrade_api.h; sourceTree = "<group>"; };
+		4E42D7302947841D00C24C5B /* ctptrade_api.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ctptrade_api.cpp; path = ../../csource/src/wrapper_ctp/macos/ctptrade_api.cpp; sourceTree = "<group>"; };
+		4E42D7342947843400C24C5B /* DataCollect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCollect.h; path = ../../csource/ctpapi/macos/DataCollect.h; sourceTree = "<group>"; };
+		4E42D7352947843400C24C5B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../../csource/ctpapi/macos/README.txt; sourceTree = "<group>"; };
+		4E42D7362947843500C24C5B /* ThostFtdcUserApiDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThostFtdcUserApiDataType.h; path = ../../csource/ctpapi/macos/ThostFtdcUserApiDataType.h; sourceTree = "<group>"; };
+		4E42D7382947843500C24C5B /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = ../../csource/ctpapi/macos/libs; sourceTree = "<group>"; };
+		4E42D73A2947843500C24C5B /* ThostFtdcMdApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThostFtdcMdApi.h; path = ../../csource/ctpapi/macos/ThostFtdcMdApi.h; sourceTree = "<group>"; };
+		4E42D73B2947843500C24C5B /* ThostFtdcTraderApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThostFtdcTraderApi.h; path = ../../csource/ctpapi/macos/ThostFtdcTraderApi.h; sourceTree = "<group>"; };
+		4E42D73C2947843500C24C5B /* ThostFtdcUserApiStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThostFtdcUserApiStruct.h; path = ../../csource/ctpapi/macos/ThostFtdcUserApiStruct.h; sourceTree = "<group>"; };
+		4E42D7452947849800C24C5B /* libctptrade_api.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libctptrade_api.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E47054E295313F500E55215 /* libthostmduserapi_se.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libthostmduserapi_se.a; path = ../../csource/ctpapi/macos/libthostmduserapi_se.a; sourceTree = "<group>"; };
+		4E470550295313F500E55215 /* libthosttraderapi_se.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libthosttraderapi_se.a; path = ../../csource/ctpapi/macos/libthosttraderapi_se.a; sourceTree = "<group>"; };
+		4E4705542953144900E55215 /* libMacDataCollect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMacDataCollect.a; path = ../../csource/ctpapi/macos/libMacDataCollect.a; sourceTree = "<group>"; };
+		4EFDD216294E77B5005E1C5C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4EFDD218294E77EA005E1C5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4EFDD21A294E77F7005E1C5C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE9E1E42944B1D600D0FF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFDD21B294E77F7005E1C5C /* CoreServices.framework in Frameworks */,
+				4EFDD219294E77EA005E1C5C /* Cocoa.framework in Frameworks */,
+				4E4705552953144900E55215 /* libMacDataCollect.a in Frameworks */,
+				4E470553295313F500E55215 /* libthosttraderapi_se.a in Frameworks */,
+				4EFDD217294E77B5005E1C5C /* IOKit.framework in Frameworks */,
+				4E470551295313F500E55215 /* libthostmduserapi_se.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE9E1DD2944B1D600D0FF76 = {
+			isa = PBXGroup;
+			children = (
+				4E4705542953144900E55215 /* libMacDataCollect.a */,
+				4E47054E295313F500E55215 /* libthostmduserapi_se.a */,
+				4E470550295313F500E55215 /* libthosttraderapi_se.a */,
+				4E42D7342947843400C24C5B /* DataCollect.h */,
+				4E42D7382947843500C24C5B /* libs */,
+				4E42D7352947843400C24C5B /* README.txt */,
+				4E42D73A2947843500C24C5B /* ThostFtdcMdApi.h */,
+				4E42D73B2947843500C24C5B /* ThostFtdcTraderApi.h */,
+				4E42D7362947843500C24C5B /* ThostFtdcUserApiDataType.h */,
+				4E42D73C2947843500C24C5B /* ThostFtdcUserApiStruct.h */,
+				4E42D7302947841D00C24C5B /* ctptrade_api.cpp */,
+				4E42D72F2947841D00C24C5B /* ctptrade_api.h */,
+				4E42D7452947849800C24C5B /* libctptrade_api.dylib */,
+				4EFDD215294E77B5005E1C5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFDD215294E77B5005E1C5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EFDD21A294E77F7005E1C5C /* CoreServices.framework */,
+				4EFDD218294E77EA005E1C5C /* Cocoa.framework */,
+				4EFDD216294E77B5005E1C5C /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EE9E1E22944B1D600D0FF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E42D7422947843500C24C5B /* ThostFtdcMdApi.h in Headers */,
+				4E42D7312947841D00C24C5B /* ctptrade_api.h in Headers */,
+				4E42D73F2947843500C24C5B /* ThostFtdcUserApiDataType.h in Headers */,
+				4E42D7432947843500C24C5B /* ThostFtdcTraderApi.h in Headers */,
+				4E42D73E2947843500C24C5B /* DataCollect.h in Headers */,
+				4E42D7442947843500C24C5B /* ThostFtdcUserApiStruct.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EE9E1E52944B1D600D0FF76 /* ctptrade_api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE9E1F12944B1D600D0FF76 /* Build configuration list for PBXNativeTarget "ctptrade_api" */;
+			buildPhases = (
+				4EE9E1E22944B1D600D0FF76 /* Headers */,
+				4EE9E1E32944B1D600D0FF76 /* Sources */,
+				4EE9E1E42944B1D600D0FF76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ctptrade_api;
+			productName = ctptrade_api;
+			productReference = 4E42D7452947849800C24C5B /* libctptrade_api.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE9E1DE2944B1D600D0FF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4EE9E1E52944B1D600D0FF76 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EE9E1E12944B1D600D0FF76 /* Build configuration list for PBXProject "ctptrade_api" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE9E1DD2944B1D600D0FF76;
+			productRefGroup = 4EE9E1DD2944B1D600D0FF76;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE9E1E52944B1D600D0FF76 /* ctptrade_api */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE9E1E32944B1D600D0FF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E42D7322947841D00C24C5B /* ctptrade_api.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EE9E1EF2944B1D600D0FF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_NO_PIE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fPIC",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EE9E1F02944B1D600D0FF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_NO_PIE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fPIC",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EE9E1F22944B1D600D0FF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../csource/ctpapi/macos;
+				LD_NO_PIE = YES;
+				LIBRARY_SEARCH_PATHS = ../../csource/ctpapi/macos;
+				OTHER_LDFLAGS = (
+					"-lthostmduserapi_se",
+					"-lthosttraderapi_se",
+					"-lMacDataCollect",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EE9E1F32944B1D600D0FF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ../../csource/ctpapi/macos;
+				LD_NO_PIE = YES;
+				LIBRARY_SEARCH_PATHS = ../../csource/ctpapi/macos;
+				OTHER_LDFLAGS = (
+					"-lthostmduserapi_se",
+					"-lthosttraderapi_se",
+					"-lMacDataCollect",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE9E1E12944B1D600D0FF76 /* Build configuration list for PBXProject "ctptrade_api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE9E1EF2944B1D600D0FF76 /* Debug */,
+				4EE9E1F02944B1D600D0FF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE9E1F12944B1D600D0FF76 /* Build configuration list for PBXNativeTarget "ctptrade_api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE9E1F22944B1D600D0FF76 /* Debug */,
+				4EE9E1F32944B1D600D0FF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE9E1DE2944B1D600D0FF76 /* Project object */;
+}
